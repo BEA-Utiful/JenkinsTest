@@ -21,4 +21,12 @@ public class JenkinsTest {
 
         return mTestStringList.get(0);
     }
+
+    public int size() {
+        return mTestStringList.size();
+    }
+
+    public void clear() {
+        mTestStringList.clear();
+    }
 }
